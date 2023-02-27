@@ -9,7 +9,7 @@ public class Circunferencia {
         double radio, area, perimetro;
         Scanner leer = new Scanner(System.in);
         
-        System.out.println("Ingrase el radio de la circunferencia: ");
+        System.out.println("Ingrese el radio de la circunferencia: ");
         radio = leer.nextDouble();
         
         area = Math.PI*Math.pow(radio, 2);
